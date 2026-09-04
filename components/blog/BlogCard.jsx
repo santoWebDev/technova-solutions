@@ -31,7 +31,7 @@ export default function BlogCard({ blog }) {
           href={`/blog/${blog.slug}`}
           className="mt-7 inline-block font-semibold text-blue-600"
         >
-          Read More →
+          Read More
         </Link>
       </div>
     </article>

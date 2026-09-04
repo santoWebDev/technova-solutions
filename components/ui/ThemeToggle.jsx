@@ -33,7 +33,7 @@ export default function ThemeToggle() {
       onClick={toggleTheme}
       className="rounded-full border border-black/15 px-4 py-2 text-sm"
     >
-      {dark ? "☀ Light" : "☾ Dark"}
+      {dark ? "Light" : "Dark"}
     </button>
   );
 }
