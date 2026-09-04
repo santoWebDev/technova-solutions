@@ -4,11 +4,11 @@ A modern responsive technology company website built with Next.js and React.
 
 ## Live Demo
 
-YOUR_VERCEL_URL
+[VERCEL_URL]-(https://technova-solutions-pi.vercel.app/)
 
 ## GitHub
 
-YOUR_GITHUB_URL
+[GITHUB_URL]-(https://github.com/santoWebDev/technova-solutions)
 
 ## Tech Stack
 
