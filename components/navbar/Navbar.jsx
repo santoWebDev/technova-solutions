@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import ThemeToggle from "../ui/ThemeToggle";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +14,9 @@ export default function Navbar() {
   ];
 
   return (
+    
     <header className="sticky top-0 z-50 border-b border-black/10 bg-[#f4f6f8]/90 backdrop-blur-md">
+        
       <div className="container flex h-20 items-center justify-between">
         
         <a
@@ -33,6 +36,8 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+
+           <ThemeToggle />  
 
           <a
             href="#contact"

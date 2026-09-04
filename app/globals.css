@@ -18,6 +18,13 @@
 html {
   scroll-behavior: smooth;
 }
+html.dark {
+  --background: #080d16;
+  --foreground: #f4f6f8;
+  --surface: #101827;
+  --muted: #98a2b3;
+  --border: #253044;
+}
 
 body {
   margin: 0;

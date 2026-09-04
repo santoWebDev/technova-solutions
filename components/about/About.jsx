@@ -11,7 +11,8 @@ export default function About() {
         />
 
         <div className="grid gap-6 md:grid-cols-3">
-          <div className="rounded-3xl bg-[#0b1220] p-8 text-white md:col-span-2">
+
+          <div className="rounded-3xl bg-[var(--dark)] p-8 text-white md:col-span-2">
             <p className="text-sm uppercase tracking-[0.2em] text-blue-400">
               Our mission
             </p>
@@ -21,15 +22,16 @@ export default function About() {
             </h3>
           </div>
 
-          <div className="rounded-3xl border border-black/10 bg-white p-8">
-            <p className="text-sm uppercase tracking-[0.2em] text-gray-400">
+          <div className="rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8">
+            <p className="text-sm uppercase tracking-[0.2em] text-[var(--muted)]">
               Our vision
             </p>
 
-            <p className="mt-10 text-xl font-semibold leading-8">
+            <p className="mt-10 text-xl font-semibold leading-8 text-[var(--foreground)]">
               Build digital products that remain valuable long after launch.
             </p>
           </div>
+
         </div>
       </div>
     </section>

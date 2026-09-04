@@ -6,6 +6,7 @@ import BlogSection from "../components/blog/BlogSection";
 import Testimonials from "../components/testimonials/Testimonials";
 import ContactForm from "../components/contact/ContactForm";
 import Footer from "../components/footer/Footer";
+import FadeIn from "../components/ui/FadeIn";
 
 export default function Home() {
   return (
@@ -14,11 +15,26 @@ export default function Home() {
 
       <main>
         <Hero />
-        <About />
-        <Services />
-        <BlogSection />
-        <Testimonials />
-        <ContactForm />
+
+        <FadeIn>
+          <About />
+        </FadeIn>
+
+        <FadeIn>
+          <Services />
+        </FadeIn>
+
+        <FadeIn>
+          <BlogSection />
+        </FadeIn>
+
+        <FadeIn>
+          <Testimonials />
+        </FadeIn>
+
+        <FadeIn>
+          <ContactForm />
+        </FadeIn>
       </main>
 
       <Footer />
