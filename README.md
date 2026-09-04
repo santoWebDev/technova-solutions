@@ -43,4 +43,4 @@ public/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_URL
+git clone https://github.com/santoWebDev/technova-solutions
