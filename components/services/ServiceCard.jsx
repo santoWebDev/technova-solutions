@@ -1,3 +1,5 @@
+import { ArrowRight } from "lucide-react";
+
 export default function ServiceCard({
   number,
   title,
@@ -22,7 +24,7 @@ export default function ServiceCard({
         </div>
 
         <div className="text-2xl text-[var(--foreground)] transition-transform group-hover:translate-x-2">
-          →
+          <ArrowRight size={28} strokeWidth={2} />
         </div>
 
       </div>
